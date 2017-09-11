@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remove-project name="LineageOS/android_build" path="build" />
+	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
+	<remove-project name="LineageOS/android_system_core" path="system/core" />
+	<remove-project name="LineageOS/android_system_bt" path="system/bt" />
+	<remove-project name="LineageOS/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
+	<remove-project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media" />
+	<remove-project name="LineageOS/android_hardware_qcom_gps" path="hardware/qcom/gps" />
+	<remove-project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" />
+	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
+	<remove-project name="LineageOS/android_external_tinycompress" path="external/tinycompress" />
+	<remove-project name="LineageOS/android_bionic" path="bionic" />
+	
+	
+	<project path="hardware/samsung" name="oreojf-lineageos/android_hardware_samsung" remote="github" revision="lineage-15.0" />
+	<project path="system/core" name="oreojf-lineageos/android_system_core" remote="github" revision="lineage-15.0" />
+	<project path="system/bt" name="oreojf-lineageos/android_system_bt" remote="github" revision="lineage-15.0" />
+	<project path="packages/providers/TelephonyProvider" name="oreojf-lineageos/android_packages_providers_TelephonyProvider" remote="github" revision="lineage-15.0" />
+	<project path="hardware/qcom/media" name="oreojf-lineageos/android_hardware_qcom_media" remote="github" revision="lineage-15.0" />
+	<project path="hardware/qcom/gps" name="oreojf-lineageos/android_hardware_qcom_gps" remote="github" revision="lineage-15.0" />
+	<project path="hardware/qcom/audio" name="oreojf-lineageos/android_hardware_qcom_audio" remote="github" revision="lineage-15.0" />
+	<project path="frameworks/native" name="oreojf-lineageos/android_frameworks_native" remote="github" revision="lineage-15.0" />
+	<project path="external/tinycompress" name="oreojf-lineageos/android_external_tinycompress" remote="github" revision="lineage-15.0" />
+	<project path="bionic" name="oreojf-lineageos/android_bionic" remote="github" revision="lineage-15.0" />
+	
+</manifest>
