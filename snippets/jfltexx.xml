@@ -25,5 +25,7 @@
 	<project path="external/tinycompress" name="oreojf-lineageos/android_external_tinycompress" remote="github" revision="lineage-15.0" />
 	<project path="bionic" name="oreojf-lineageos/android_bionic" remote="github" revision="lineage-15.0" />
 	<project path="kernel/samsung/jf" name="oreojf-lineageos/android_kernel_samsung_jf" remote="github" revision="lineage-15.0" />
+	<project path="vendor/samsung" name="oreojf-lineageos/proprietary_vendor_samsung" remote="github" revision="lineage-15.0" />
+	<project path="vendor/lineage" name="oreojf-lineageos/android_vendor_lineage" remote="github" revision="lineage-15.0" />
 	
 </manifest>
