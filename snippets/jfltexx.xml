@@ -13,7 +13,10 @@
 	<remove-project name="LineageOS/android_external_tinycompress" path="external/tinycompress" />
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
 	
-	
+	<project path="build" name="oreojf-lineageos/android_build" remote="github" revision="lineage-15.0" />
+	  <copyfile src="core/root.mk" dest="Makefile" />
+	</project>
+
 	<project path="hardware/samsung" name="oreojf-lineageos/android_hardware_samsung" remote="github" revision="lineage-15.0" />
 	<project path="system/core" name="oreojf-lineageos/android_system_core" remote="github" revision="lineage-15.0" />
 	<project path="system/bt" name="oreojf-lineageos/android_system_bt" remote="github" revision="lineage-15.0" />
