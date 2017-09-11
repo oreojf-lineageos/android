@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remove-project name="LineageOS/android_build" path="build" />
+	<remove-project name="LineageOS/android_build" path="build/make" />
 	<remove-project name="LineageOS/android_vendor_lineage" path="vendor/lineage" />
 	<remove-project name="LineageOS/android_system_core" path="system/core" />
 	<remove-project name="LineageOS/android_system_bt" path="system/bt" />
@@ -15,9 +15,16 @@
 	
 	
 	
-	<project path="build" name="oreojf-lineageos/android_build" remote="github" revision="lineage-15.0" >
+	<project path="build/make" name="oreojf-lineageos/android_build" remote="github" revision="lineage-15.0" >
 	  <copyfile src="core/root.mk" dest="Makefile" />
+    	 	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    		<linkfile src="core" dest="build/core" />
+ 		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    		<linkfile src="target" dest="build/target" />
+    		<linkfile src="tools" dest="build/tools" />
 	</project>
+
 
 	<project path="hardware/samsung" name="oreojf-lineageos/android_hardware_samsung" remote="github" revision="lineage-15.0" />
 	<project path="system/core" name="oreojf-lineageos/android_system_core" remote="github" revision="lineage-15.0" />
