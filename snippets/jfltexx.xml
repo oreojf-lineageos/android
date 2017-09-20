@@ -10,7 +10,7 @@
 	<remove-project name="LineageOS/android_frameworks_native" path="frameworks/native" />
 	<remove-project name="LineageOS/android_external_tinycompress" path="external/tinycompress" />
 	<remove-project name="LineageOS/android_bionic" path="bionic" />
-	
+	<remove-project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" />
 	
 	
 	<project path="build/make" name="oreojf-lineageos/android_build" remote="github" revision="lineage-15.0" >
@@ -39,6 +39,7 @@
 	<project path="device/samsung/jf-common" name="oreojf-lineageos/android_device_samsung_jf-common" remote="github" revision="lineage-15.0" />
 	<project path="device/samsung/jfltexx" name="oreojf-lineageos/android_device_samsung_jfltexx" remote="github" revision="lineage-15.0" />
 	<project path="device/samsung/qcom-common" name="oreojf-lineageos/android_device_samsung_qcom-common" remote="github" revision="lineage-15.0" />
+	<project path="hardware/qcom/wlan-caf" name="oreojf-lineageos/android_hardware_qcom_wlan" remote="github" revision="lineage-15.0-caf" />
 	
 	<!--untouched LineageOS packages-->
 	<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
