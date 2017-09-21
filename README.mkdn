@@ -1,6 +1,6 @@
 
 
-    repo init -u git://github.com/oreojf-lineageos/android.git -b lineage-15.0
+    repo init -u git://github.com/oreojf-lineageos/android.git -b lineage-15.0-upstream
 
 Then to sync up:
 
