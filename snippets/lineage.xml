@@ -100,7 +100,9 @@
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+  </project>
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.0-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
