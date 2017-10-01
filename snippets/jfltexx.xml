@@ -32,7 +32,7 @@
 	<project path="frameworks/native" name="oreojf-lineageos/android_frameworks_native" remote="github" revision="lineage-15.0" />
 	<project path="external/tinycompress" name="oreojf-lineageos/android_external_tinycompress" remote="github" revision="lineage-15.0" />
 	<project path="bionic" name="oreojf-lineageos/android_bionic" remote="github" revision="lineage-15.0" />
-	<project path="kernel/samsung/jf" name="aosp-jf-mm/android_kernel_samsung_jf" remote="github" revision="aosp-8.0-test" />
+	<project path="kernel/samsung/jf" name="invisiblek/android_kernel_samsung_jf" remote="github" revision="lineage-15.0" />
 	<project path="vendor/samsung" name="oreojf-lineageos/proprietary_vendor_samsung" remote="github" revision="lineage-15.0" />
 	<project path="vendor/lineage" name="oreojf-lineageos/android_vendor_lineage" remote="github" revision="lineage-15.0" />
 	<project path="device/samsung/jf-common" name="oreojf-lineageos/android_device_samsung_jf-common" remote="github" revision="lineage-15.0" />
